@@ -1,0 +1,30 @@
+{
+  "name": "ts-mustang",
+  "version": "0.0.0",
+  "description": "Dependency injection for TypeScript",
+  "author": "",
+  "homepage": "https://github.com/tibawatanabe/ts-mustang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tibawatanabe/ts-mustang.git"
+  },
+  "scripts": {
+    "tslint": "tslint",
+    "lint": "npm run tslint 'src/**/*.ts'"
+  },
+  "dependencies": {
+    "es6-shim": "^0.35.2",
+    "reflect-metadata": "^0.1.9",
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.5"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/tibawatanabe/ts-mustang/issues"
+  },
+  "engines": {
+    "node": "6.5.0",
+    "npm": ">= 3"
+  }
+}
