@@ -10,12 +10,19 @@
     "url": "https://github.com/tibawatanabe/ts-mustang.git"
   },
   "scripts": {
+    "test": "npm run ts-node 'test/test.ts'",
+    "ts-node": "ts-node",
     "tslint": "tslint",
     "lint": "npm run tslint 'src/**/*.ts'"
   },
   "dependencies": {
+    "@types/core-js": "^0.9.35",
+    "@types/node": "^7.0.0",
+    "core-js": "^2.4.1",
     "es6-shim": "^0.35.2",
+    "lodash.isnil": "^4.0.0",
     "reflect-metadata": "^0.1.9",
+    "ts-node": "^2.0.0",
     "tslint": "^4.3.1",
     "typescript": "^2.1.5"
   },
